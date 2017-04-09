@@ -1,0 +1,33 @@
+body { background: #031e77 url(../images/sky2.jpg) no-repeat fixed top right; }
+strong { font-weight: bold; }
+
+/* structure */
+#container { width: 900px; margin: 26px auto; }
+	#content { background: #eee url(../images/weco.jpg) no-repeat 83% 10px;; background: #eee; -moz-border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; padding: 20px 20px 5px; margin: 0 0 10px; position: relative; }
+		#content_slide { padding: 5px 0 0; }
+		#gallery_slide { padding: 10px 0 0; clear: both; }
+	#gallery { background: #eee; -moz-border-radius: 10px; -webkit-border-radius: 10px; width: 860px; padding: 20px 20px 20px; }
+
+/* headers */
+h2 { margin: 0 0 10px; padding: 0; color: #656565; font: bold 24px helvetica; }
+h2 span { color: #007ED6; }
+h3 { margin: 0; padding: 0; color: #656656; font: bold 16px helvetica; line-height: 20px; }
+h3 span { font: 12px arial; }
+
+/* paragraphs */
+p { font: 14px helvetica; color: #656656; margin: 0 0 15px; line-height: 20px; }
+p.last { margin: 0; padding: 0 0 10px; }
+p#caption { margin: 10px 0 0; }
+#footer p { color: #fff; margin: 10px 0 0; font: 12px helvetica; }
+p.small { font: 12px helvetica; }
+
+/* links */
+a { color: #007ED6; text-decoration: none; }
+a:hover { text-decoration: underline; }
+h2 a { color: #656565; }
+h2 a:hover { text-decoration: none; }
+#gallery a { width: 77px; height: 50px; float: left; display: block; margin: 10px 10px 0 0; }
+#gallery a.last { margin: 10px 0 0; }
+#footer a { color: #fff; }
+
+#large_img { max-width: 800px; }
